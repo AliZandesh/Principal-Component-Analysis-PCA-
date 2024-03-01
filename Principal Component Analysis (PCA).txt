@@ -1,0 +1,27 @@
+1- Principal component analysis (PCA) is an unsupervised machine learning technique. 
+2- Perhaps the most popular use of principal component analysis is dimensionality reduction. 
+3- Besides using PCA as a data preparation technique, we can also use it to help visualize data. 
+4- PCA comes under the Unsupervised Machine Learning category
+5- Reducing the number of variables in a data collection while retaining as much information as feasible is the main goal of PCA. 
+6- PCA can be mainly used for Dimensionality Reduction and also for important feature selection.
+7- Correlated features to Independent features
+8- PCA is not required unless you have a dataset with a large number of attributes. 
+9- Generally, when we deal with real-world data we encounter a huge messy dataset with a large number of attributes.
+10- If we apply any Machine Learning model on a huge dataset without reducing its dimensions then it would be computationally expensive.
+11- PCA can not be applied to the dataset with null values. Hence, you need to treat null values before proceeding with PCA.   
+12- There are different ways of treating null values such as dropping the variables and imputing the missing data using mean or median.
+13- We shouldn’t apply PCA on the dataset having attributes on different scales. We need to standardize variables before applying PCA.
+14- Unless specified, the number of principal components will be equal to the number of attributes.
+15- Our dataset has 18 attributes initially hence we get 18 principal components. These components are new variables which are in fact a linear combination of input variables.
+16- Principal components are uncorrelated with each other. 
+17- These principal components are known as eigenvectors and the variances explained by each eigenvector is known as eigenvalues.
+18- Covariance: With covariance, we can estimate the degree to which analogous components from a couple of sets of grouped data move in an identical direction. 
+19- In simple words, it is used to identify the dependencies and relationships between the characteristics of datasets.
+20- PCA is sensitive to the scale, if we normalized each feature by StandardScaler we can see a better result.
+21- PCA is sensitive to the scale of the data, and if the data is not scaled properly, the results of PCA may not be accurate. 
+22- Therefore, it is recommended to normalize each feature by StandardScaler before applying PCA to the data. 
+23- This will ensure that the different features are on the same scale and will result in a better PCA result. 
+24- By scaling the data before PCA, the different classes in the dataset become more distinctive, which makes it easier for a simple model such as SVM to classify the dataset with high accuracy.
+25- The difference between normalized PCA and non-normalized PCA can be seen in the plot of the transformed data. 
+26- If the data is not scaled before PCA, the different classes may overlap, making it difficult to distinguish between them.
+27- PCA analysis helps you reduce or eliminate similar data in the line of comparison that does not even contribute a bit to decision making. You have to be clear that PCA analysis reduces dimensionality without any data loss.
